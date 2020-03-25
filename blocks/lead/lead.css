@@ -1,0 +1,14 @@
+.lead {
+    width: 985px;
+    height: 950px;
+    margin: 48 auto;
+    border: solid 2px;
+    border-color: blueviolet;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: 100%;
+    }
+}
