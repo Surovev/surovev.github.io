@@ -1,7 +1,7 @@
 .lead {
     width: 985px;
     height: 950px;
-    margin: 48px auto;
+    margin: 48px auto 70px;
 
 }
 
@@ -67,6 +67,13 @@
     .lead {
         width: 100%;
 
+    }
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .lead {
+        height: auto;
     }
 }
 
