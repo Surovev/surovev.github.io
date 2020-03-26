@@ -3,7 +3,9 @@
 .header {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+
+    width: 1184px;
+    margin: 30 auto 0;
 }
 
 .header__lang {
@@ -24,10 +26,41 @@
 @media screen and (min-width: 1400px) {
     .header {
         width: 1184px;
+        margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 1400px) {
+
+/* md */
+@media screen and (min-width: 1024px) and (max-width: 1239.98px) {
+    .header {
+        width: 100%;
+        padding: 0 48px;
+
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .header {
+        width: 100%;
+        padding: 0 24px;
+    }
+}
+
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .header {
+        width: 100%;
+        padding: 0 16px;
+
+    }
+}
+
+
+
+/* @media screen and (max-width: 1400px) {
     .header {
         width: 100%;
         padding-left: 48px;
@@ -56,4 +89,4 @@
         padding-left: 24px;
         padding-right: 24px;
     }
-}
+} */
