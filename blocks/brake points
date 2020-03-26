@@ -1,21 +1,17 @@
-/* xs */
-@media screen and (max-width: 425px)
-/* sm */
-@media screen and (min-width: 425.02px) and (max-width: 768px)
-/* md */
-@media screen and (min-width: 768.02px) and (max-width: 1024px)
-/* lg */
-@media screen and (min-width: 1024.02px)
+/* xs */ @media screen and (max-width: 767.98px)
+/* sm */ @media screen and (min-width: 768px) and (max-width: 1023.98px)
+/* md */ @media screen and (min-width: 1024px) and (max-width: 1239.98px)
+/* lg */ @media screen and (min-width: 1240px)
+
+
 /** PLUS */
 
-/* sm+ */
-@media screen and (min-width: 425.02px)
-/* md+ */
-@media screen and (min-width: 768.02px)
+/* sm+ */ @media screen and (min-width: 768px)
+/* md+ */ @media screen and (min-width: 1024px)
 
 /** MINUS */
 
 /* sm- */
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1023.98px)
 /* md- */
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1239.98px)
