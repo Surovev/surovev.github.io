@@ -1,0 +1,24 @@
+.photo-grid {
+    width: 1184px;
+    height: 596px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 16px;
+    margin: 0 auto 92px;
+}
+
+.photo-grid__item {
+    width: 284px;
+    height: 188px;
+}
+
+
+/* md */
+@media screen and (min-width: 1024px) and (max-width: 1239.98px) {
+    .photo-grid {
+
+        grid-template-columns: repeat(3, auto);
+
+
+    }
+}
