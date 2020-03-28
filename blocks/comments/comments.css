@@ -1,0 +1,23 @@
+.comments__container {
+    display: flex;
+    max-width: 1184px;
+    margin: 0 auto 102px;
+
+}
+
+.comment__quote {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.comment {
+    width: calc(33% - 10px)
+}
+
+.comment__img {
+    border-radius: 50%;
+}
