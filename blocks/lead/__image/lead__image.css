@@ -1,0 +1,34 @@
+.lead__image {
+    width: 984px;
+    height: 554px;
+    margin-bottom: 11px;
+
+    background: url(/blocks/lead/lead__vector.svg) no-repeat center 39%/95%, url(/blocks/lead/lead__background.jpg) no-repeat center top/cover;
+}
+
+
+
+/* md */
+@media screen and (min-width: 1024px) and (max-width: 1239.98px) {
+    .lead__image {
+
+        width: 928px;
+    }
+}
+
+
+/* sm- */
+@media screen and (max-width: 1023.98px) {
+    .lead__image {
+        width: 100%;
+        padding-bottom: 57%;
+
+    }
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .lead__image {
+        height: 211px;
+    }
+}
