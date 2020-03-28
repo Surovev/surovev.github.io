@@ -9,15 +9,53 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 24px;
 
     color: #FFFFFF;
 
 }
 
 .comment {
-    width: calc(33% - 10px)
+    width: calc(33% - 10px);
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .comment__img {
     border-radius: 50%;
+    margin-bottom: 42px;
+}
+
+.comment__author {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .comments__container {
+        flex-direction: column;
+
+    }
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .comment {
+        width: 100%;
+
+    }
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .comment__img {
+        display: flex;
+        align-self: center;
+    }
 }
