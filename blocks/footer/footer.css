@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+}
+
+.footer__links {
+    width: 70%;
+    display: flex;
+}
+
+.footer__link {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    justify-content: space-around;
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.footer__copyrigt {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+}

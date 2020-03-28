@@ -1,0 +1,45 @@
+.cover {
+    position: relative;
+    max-width: 1184px;
+    height: 50%;
+    margin: 0 auto 100px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cover__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+.cover__title {
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    padding: 274px auto;
+
+    color: #FFFDFD;
+    width: 80%;
+
+}
+
+.cover__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    max-width: 382px;
+
+}
