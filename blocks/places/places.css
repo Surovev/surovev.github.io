@@ -1,3 +1,8 @@
+.places {
+    margin-bottom: 30px;
+}
+
+
 .place {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -23,7 +28,7 @@
 
 .place__website {
 
-    min-height: 133px;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -85,6 +90,21 @@
 @media screen and (max-width: 767.98px) {
     .place {
         display: block;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .place__header-title {
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .place__img {
+        width: 100%;
+        margin-bottom: 24px;
     }
 }
 
