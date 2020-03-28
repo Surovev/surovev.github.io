@@ -1,0 +1,22 @@
+.video__icon-play {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+
+/* xs */
+@media screen and (max-width: 380px) {
+    .video__icon-play {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .video__icon-play {
+        top: 16px;
+        left: 16px;
+    }
+}

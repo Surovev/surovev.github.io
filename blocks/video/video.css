@@ -1,116 +1,16 @@
+@import url(__bg-image/video__bg-image.css);
+@import url(__container/video__container.css);
+@import url(__duration/video__duration.css);
+@import url(__icon-play/video__icon-play.css);
+@import url(__info/video__info.css);
+@import url(__item/video__item.css);
+@import url(__subtitle/video__subtitle.css);
+@import url(__title/video__title.css);
+
+
 .video {
     max-width: 1184px;
 
     margin: 72px auto 102px;
 
-}
-
-.video__item {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: calc(50% - 9px);
-    cursor: pointer;
-    border-radius: 5px;
-
-}
-
-.video__container {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-
-}
-
-.video__icon-play {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
-.video__info {
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
-    max-width: 60%;
-
-}
-
-.video__title {
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 39px;
-    margin: 12px 0 18px;
-
-    color: #FFFFFF;
-}
-
-.video__bg-image {
-    max-width: 100%;
-    position: relative;
-    top: 0;
-    z-index: -1;
-}
-
-.video__subtitle {
-    font-size: 14px;
-    line-height: 15px;
-
-    color: #FFFFFF;
-
-
-}
-
-.video__duration {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 13px;
-    letter-spacing: 0.3em;
-
-    color: #FFFFFF;
-}
-
-/* xs */
-@media screen and (max-width: 767.98px) {
-    .video__icon-play {
-        top: 24px;
-        left: 24px;
-    }
-}
-
-/* sm */
-@media screen and (min-width: 768px) and (max-width: 1023.98px) {
-    .video__title {
-        font-size: 24px;
-        line-height: 26px;
-    }
-}
-
-/* xs */
-@media screen and (max-width: 767.98px) {
-    .video__icon-play {
-        top: 16px;
-        left: 16px;
-    }
-}
-
-/* xs */
-@media screen and (max-width: 767.98px) {
-    .video__container {
-        flex-direction: column;
-    }
-}
-
-/* xs */
-@media screen and (max-width: 767.98px) {
-    .video__bg-image {
-        width: 100%;
-    }
-}
-
-
-/* xs */
-@media screen and (max-width: 767.98px) {
-    .video__item {
-        width: 100%;
-    }
 }

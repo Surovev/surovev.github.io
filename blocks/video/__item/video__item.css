@@ -1,0 +1,17 @@
+.video__item {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: calc(50% - 9px);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .video__item {
+        width: 100%;
+    }
+}

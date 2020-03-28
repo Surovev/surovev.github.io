@@ -1,0 +1,10 @@
+.cover__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}

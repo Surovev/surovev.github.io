@@ -1,0 +1,14 @@
+.video__bg-image {
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .video__bg-image {
+        width: 100%;
+    }
+}
