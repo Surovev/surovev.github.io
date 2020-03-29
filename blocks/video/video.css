@@ -16,6 +16,10 @@
 
 }
 
+.video__link {
+    display: block;
+}
+
 /* md */
 @media screen and (min-width: 1024px) and (max-width: 1239.98px) {
     .video {

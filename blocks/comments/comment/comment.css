@@ -1,0 +1,28 @@
+.comment {
+    width: calc(33% - 10px);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .comment {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+/* sm- */
+@media screen and (max-width: 1023.98px) {
+    .comment {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 16px 48px;
+    }
+
+    .comment:last-child {
+        margin-bottom: 0;
+    }
+}
