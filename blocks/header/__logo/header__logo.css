@@ -5,3 +5,12 @@
     flex-grow: 1;
     background-repeat: no-repeat;
 }
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        background-size: contain;
+    }
+}
