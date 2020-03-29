@@ -14,9 +14,10 @@
 
 @media screen and (max-width: 767.98px) {
     .place__header-title {
-        margin-bottom: 32px;
+        margin: 0 16px 32px;
         font-size: 32px;
         line-height: 35px;
+
 
     }
 }
