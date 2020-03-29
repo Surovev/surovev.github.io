@@ -20,6 +20,9 @@
     line-height: 78px;
     text-align: center;
     padding: 274px auto;
+    position: absolute;
+    top: 274px;
+    left: 39px;
 
     color: #FFFDFD;
     width: 80%;
@@ -31,6 +34,9 @@
     font-size: 18px;
     line-height: 26px;
     text-align: center;
+    position: absolute;
+    left: 401px;
+    bottom: 48px;
 
     color: #FFFFFF;
     max-width: 382px;
