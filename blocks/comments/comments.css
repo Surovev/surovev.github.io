@@ -36,6 +36,14 @@
     color: #FFFFFF;
 }
 
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .comment {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
 /* xs */
 @media screen and (max-width: 767.98px) {
     .comments__container {

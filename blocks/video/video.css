@@ -13,4 +13,29 @@
 
     margin: 72px auto 102px;
 
+
+}
+
+/* md */
+@media screen and (min-width: 1024px) and (max-width: 1239.98px) {
+    .video {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .video {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .video {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
