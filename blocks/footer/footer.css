@@ -53,6 +53,7 @@
 @media screen and (max-width: 767.98px) {
     .footer__link {
         margin-bottom: 32px;
+
     }
 }
 
@@ -60,5 +61,24 @@
 @media screen and (max-width: 767.98px) {
     .footer__copyrigt {
         align-self: auto;
+        margin: 16px 0 0 0;
+    }
+}
+
+/* md */
+@media screen and (min-width: 1024px) and (max-width: 1239.98px) {
+    .footer {
+        width: auto;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .footer {
+        width: auto;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }

@@ -7,4 +7,14 @@
     position: relative;
     top: 0;
     z-index: -1;
+    line-height: 0;
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+    .cover__bg {
+        width: 150%;
+        left: -25%;
+        max-width: none;
+    }
 }
