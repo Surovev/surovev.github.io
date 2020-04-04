@@ -7,13 +7,14 @@
     flex-direction: row;
 
     width: 1184px;
-    margin: 30px auto 0;
+    margin: 40px auto 0;
 }
 
 @media screen and (min-width: 1400px) {
     .header {
+        FONT-WEIGHT: 600;
         width: 1184px;
-        margin: 0 auto;
+        margin: 30px auto 0;
     }
 }
 

@@ -3,7 +3,7 @@
     line-height: 78px;
     text-align: center;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
     max-width: 1095px;
 
     position: absolute;
@@ -11,8 +11,13 @@
     transform: translateY(-50%);
     width: 100%;
     color: #FFFDFD;
+}
 
-
+/* md */
+@media screen and (min-width: 1024px) and (max-width: 1278.98px) {
+    .cover__title {
+        padding: 0 20%;
+    }
 }
 
 /* xs */

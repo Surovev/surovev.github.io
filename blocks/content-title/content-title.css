@@ -1,16 +1,21 @@
 .content-title {
     max-width: 800px;
-
-    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 78px;
     text-align: center;
-    margin: 0 auto 48px;
-
+    margin: 0 auto 40px;
     color: #FFFFFF;
 }
+
+/* md */
+@media screen and (min-width: 1024px) and (max-width: 1278.98px) {
+    .content-title {
+        margin-bottom: 30px;
+    }
+}
+
 
 /* sm */
 @media screen and (min-width: 768px) and (max-width: 1023.98px) {

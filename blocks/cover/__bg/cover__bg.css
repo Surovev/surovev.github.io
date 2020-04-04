@@ -7,8 +7,21 @@
     position: relative;
     top: 0;
     z-index: -1;
-    line-height: 0;
 }
+
+.cover:hover .cover__bg {
+    opacity: .6;
+    transition: linear .7s;
+
+}
+
+
+
+
+
+
+
+
 
 /* xs */
 @media screen and (max-width: 767.98px) {

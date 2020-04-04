@@ -1,13 +1,22 @@
+@import url(_kamchatka/video__item_kamchatka.css);
+@import url(_observatory/video__item_observatory.css);
+
 .video__item {
-    position: relative;
+
     background-color: rgba(0, 0, 0, 0.5);
     width: calc(50% - 9px);
+    height: 55%;
     cursor: pointer;
     border-radius: 5px;
     overflow: hidden;
     line-height: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
 
 }
+
+
 
 
 

@@ -7,16 +7,15 @@
     position: relative;
     max-width: 1184px;
     height: 50%;
-    margin: 0 auto 100px;
+    margin: 0 auto 135px;
 
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
     overflow: hidden;
+    line-height: 0;
+
 }
-
-
-
 
 
 
